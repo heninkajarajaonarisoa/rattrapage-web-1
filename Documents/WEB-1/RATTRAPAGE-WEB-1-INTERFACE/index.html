@@ -9,9 +9,7 @@
 <body>
 
   <main class="main-container">
-    
     <section class="filter-card">
-      
       <div class="filter-group group-lang">
         <label>LANGUAGE</label>
         <div class="lang-flags">
@@ -46,34 +44,7 @@
           <option value="advanced">Advanced</option>
         </select>
       </div>
-
-      <div class="filter-group group-price">
-        <div class="price-title-row">
-          <label>PRICE RANGE</label>
-          <span class="price-val-text"><span id="price-min-display">0</span> Ar – <span id="price-max-display">300,000</span> Ar</span>
-        </div>
-        <div class="dual-slider-container">
-          <input type="range" id="price-min" class="custom-range" min="0" max="300000" step="5000" value="0">
-          <input type="range" id="price-max" class="custom-range" min="0" max="300000" step="5000" value="300000">
-        </div>
-      </div>
-
-      <div class="filter-group group-search">
-        <label for="search-input">SEARCH</label>
-        <input type="text" id="search-input" placeholder="Keywords...">
-      </div>
-
-      <div class="filter-group group-clear">
-        <button id="clear-btn" class="clear-btn">CLEAR ALL</button>
-      </div>
-
     </section>
-
-    <div class="results-info">
-      <span id="courses-count">0</span> COURSES FOUND
-    </div>
-
-    <section class="courses-grid" id="courses-grid"></section>
   </main>
 
   <script src="js/data.js"></script>
